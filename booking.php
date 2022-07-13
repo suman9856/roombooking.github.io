@@ -3,6 +3,11 @@ session_start();
 if(!isset($_SESSION['username'])){
     header('location:login.php');
 }
+?>
+<!DOCTYPE html>
+<head>
+    <title>user login and signup</title>
+    <link rel="stylesheet" type="text/css" href="lgstyle.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 </head>
 <body>
